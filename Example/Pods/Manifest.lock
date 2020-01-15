@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.8.2)
+  - HandyJSON (5.0.1)
+  - Kingfisher (5.12.0):
+    - Kingfisher/Core (= 5.12.0)
+  - Kingfisher/Core (5.12.0)
+  - SSRNetwork (0.1.0):
+    - Alamofire (~> 4.8.1)
+
+DEPENDENCIES:
+  - HandyJSON (~> 5.0.0)
+  - Kingfisher (~> 5.12.0)
+  - SSRNetwork (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  SSRNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
+  SSRNetwork: a241f6972928e0d1ec26aba8304251c40784de9d
+
+PODFILE CHECKSUM: 66fce86acf3edcc568229c4e272b5676f6859b5e
+
+COCOAPODS: 1.8.4

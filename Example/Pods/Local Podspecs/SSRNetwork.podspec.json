@@ -1,0 +1,27 @@
+{
+  "name": "SSRNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of SSRNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wonderland.don@gmail.com/SSRNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wonderland.don@gmail.com": "shendong@yuewen.com"
+  },
+  "source": {
+    "git": "https://github.com/wonderland.don@gmail.com/SSRNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSRNetwork/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.1"
+    ]
+  }
+}

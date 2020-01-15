@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+
+use_frameworks!
+
+target 'SSRNetwork_Example' do
+  pod 'SSRNetwork', :path => '../'
+  pod 'HandyJSON', '~> 5.0.0'
+  pod 'Kingfisher', '~> 5.12.0'
+end
