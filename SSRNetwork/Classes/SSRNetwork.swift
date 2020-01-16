@@ -77,9 +77,9 @@ public class SSRNetwork{
     @discardableResult
     public func requestOrigin(url: URLConvertible,
                        method: Alamofire.HTTPMethod,
-                        parameters: [String: AnyObject]?,
+                        parameters: [String: AnyObject]? = nil,
                         encoding: ParameterEncoding = URLEncoding.default,
-                        headers: [String: String]?,
+                        headers: [String: String]? = nil,
                         timeoutInterval: TimeInterval = SSRNetworkDefaultTimeOut,
                         success: @escaping SSSNetworkSuccess,
                         fail: @escaping SSRNetworkFailure) -> DataRequest?{

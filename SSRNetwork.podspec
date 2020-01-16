@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSRNetwork'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SSRNetwork.'
+  s.version          = '0.1.1'
+  s.summary          = 'Useful network for handle data based on Alamofire.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Useful network for handle data based on Alamofire which can handle standard server data."
 
-  s.homepage         = 'https://github.com/wonderland.don@gmail.com/SSRNetwork'
+  s.homepage         = 'https://github.com/mistdon/SSRNetwork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wonderland.don@gmail.com' => 'shendong@yuewen.com' }
-  s.source           = { :git => 'https://github.com/wonderland.don@gmail.com/SSRNetwork.git', :tag => s.version.to_s }
+  s.author           = 'wonderland.don@gmail.com'
+  s.source           = { :git => 'https://github.com/mistdon/SSRNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+    
+  s.ios.deployment_target = '9.0'
+  s.swift_versions = '5.0'
   s.source_files = 'SSRNetwork/Classes/**/*'
   
   # s.resource_bundles = {
@@ -40,4 +38,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Alamofire', '~> 4.8.1'
+
 end
