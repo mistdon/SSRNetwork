@@ -22,7 +22,7 @@ pod 'SSRNetwork'
 
 ## Author
 
-wonderland.don@gmail.com, shendong@yuewen.com
+wonderland.don@gmail.com
 
 ## License
 
